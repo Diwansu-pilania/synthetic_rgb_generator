@@ -2,6 +2,17 @@
 
  AI generated Images 
 
+Gemini for scenario to prompt
+PS C:\Users\DIWANSU PILANIA\Desktop\tut\synthetic_rgb_generator> $env:GEMINI_API_KEY="..............................."
+PS C:\Users\DIWANSU PILANIA\Desktop\tut\synthetic_rgb_generator> python app.py 
+
+
+Local host Comfyui FLUX2 for image generation  
+PS C:\AI\ComfyUI_windows_portable> .\python_embeded\python.exe -s ComfyUI\main.py --windows-standalone-build
+
+![Synthetic RGB Generator](Screenshot 2026-09-29 050321.png)
+
+
  SCENARIO:
 {
   "camera_type": "narrow_rgb",
